@@ -22,7 +22,7 @@ body {
   font-size: 18px;
 }
 
-.header__links-list-item3 {
+.header__links-list-item-correct_spacing {
   padding-left: 3px;
 }
 
@@ -213,10 +213,9 @@ body {
   margin-left: 40px;
   border-bottom: 1px solid;
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 24px;
   text-decoration: none;
-  letter-spacing: -1.2px;
 }
 
 .about {
@@ -253,6 +252,7 @@ body {
   flex-direction: column;
   gap: 24px;
   font-size: 20px;
+  padding-right: 2px;
 }
 
 .footer {
@@ -260,7 +260,7 @@ body {
   flex-direction: row;
   padding: 1px 50px 0px 50px;
   justify-content: space-between;
-  height: 180px;
+  padding-bottom: 80px;
 }
 
 .footer .address {
